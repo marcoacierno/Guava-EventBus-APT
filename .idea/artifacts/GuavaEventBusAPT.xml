@@ -3,9 +3,11 @@
     <output-path>$PROJECT_DIR$/out/artifacts/GuavaEventBusAPT</output-path>
     <root id="archive" name="GuavaEventBusAPT.jar">
       <element id="module-output" name="GuavaEventBusAPT" />
-      <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <element id="directory" name="services">
+          <element id="dir-copy" path="$PROJECT_DIR$/META-INF/services" />
+        </element>
       </element>
     </root>
   </artifact>
